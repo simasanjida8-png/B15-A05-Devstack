@@ -2,10 +2,12 @@
 import Logo from '../assets/logo-text.png'
 
 const Nav = () => {
-    return (
-        <nav className="navbar" >
+    return ( 
+        <nav className="my-navbar" >
+
             <div className="logo">
-             <img src= {Logo} alt="" />
+             <img src= {Logo} alt="DevStack" />
+
         <ul>
           <li>Home</li>
           <li>Technologies</li>
@@ -21,6 +23,7 @@ const Nav = () => {
         </div>
 
         </nav>
+        
         
     );
 };
